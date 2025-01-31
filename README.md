@@ -1,4 +1,50 @@
-# streamlit-app-template
+<p align="center"><img src="src/assets/npuls_logo.png" alt="CEDA"></p>
+
+<h1 align="center">Npuls-CEDA | Streamlit App template</h1>
+
+<div align="center"> <strong>🚀 Rapid Streamlit App Development Kit 🛠️</strong>
+    <br> Production-ready template for building scalable Streamlit applications. 
+    <br>
+    <sub>Ideal for data scientists, ML engineers, and Python developers seeking efficient app deployment</sub> </div> 
+
+<br>
+
+<div align="center">
+  <h3>
+    <a href="https://community-data-ai.npuls.nl/groups/view/44d20066-53a8-48c2-b4e9-be348e05d273/project-center-for-educational-data-analytics-ceda">
+      Website
+    </a>
+    <span> | </span>
+    <a href="https://github.com/cedanl/streamlit-app-template#features">
+      Features
+    </a>
+    <span> | </span>
+    <a href="https://github.com/cedanl/streamlit-app-template#download-and-installation">
+      Downloads
+    </a>
+    <span> | </span>
+    <a href="https://github.com/cedanl/streamlit-app-template#development">
+      Development
+    </a>
+    <span> | </span>
+    <a href="https://github.com/cedanl/streamlit-app-template#contribution">
+      Contribution
+    </a>
+  </h3>
+</div>
+
+<div align="center">
+  <sub>The ultimate streamlit app template. Built with ❤︎ by
+    <a href="https://github.com/cedanl">CEDA</a> and
+    <a href="https://github.com/cedanl/streamlit-app-template/graphs/contributors">
+      contributors
+    </a>
+    .
+  </sub>
+</div>
+
+<br />
+
 
 # 🔍 Purpose
 This is a template repository designed to help developers quickly bootstrap high-quality Streamlit applications with standardized project structure and best practices.
