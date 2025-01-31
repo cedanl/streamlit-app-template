@@ -22,7 +22,7 @@ def extract_page_info(file_path):
 
 def get_screens():
     screens = []
-    base_dir = "src/screens"
+    base_dir = "src/frontend"
     
     for root, _, files in os.walk(base_dir):
         if root.count(os.sep) - base_dir.count(os.sep) <= 1:  # Only go one level deep

@@ -1,11 +1,9 @@
 import streamlit as st
 from config.screen_scanner import get_screens, group_pages_by_subdirectory
-from logic.file_handler import file_handler
+from backend.file_handler import file_handler
 # ---------------------------------------
 # TODO
 # ---------------------------------------
-# [] Veranderen main.py -> CEDA.py | CEDA_run.py?
-# Add directory ranking/page ranking per file for sorting?
 
 # ---------------------------------------
 # GENERAL PAGE CONFIGURATION
