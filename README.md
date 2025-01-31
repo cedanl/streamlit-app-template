@@ -154,8 +154,15 @@ Technologies
 - [ ] Update documentation
 
 
+
 # 🤝 Contributing
 Please read CONTRIBUTING.md for details on our code of conduct and process for submitting pull requests.
+
+Thank you to all the people who have already contributed to streamlit-app-template[[contributors](https://github.com/cedanl/textanalysisstreamlit-app-template/graphs/contributors)].
+
+
+[![](https://github.com/asewnandan.png?size=50)](https://github.com/asewnandan)
+[![](https://github.com/tin900.png?size=50)](https://github.com/tin900)
 
 
 
