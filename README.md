@@ -66,6 +66,51 @@ This is a template repository designed to help developers quickly bootstrap high
 - Python Web Application Developers
 - Rapid Prototyping Enthusiasts
 
+# 📁 Project Structure
+
+```
+├───data
+│   ├───input
+│   └───output
+├───src
+│   ├───assets
+│   ├───config
+│   ├───backend
+│   └───frontend
+│       ├───Files
+│       ├───Home
+│       └───Modules
+
+```
+
+## Directory Descriptions
+
+### 📂 data
+
+- input: Store raw data files and datasets used by the application.
+- output: Save processed data, results, and generated files.
+
+### 📂 src
+
+- assets: Contains static files like images, CSS, and JavaScript.
+- config: Configuration files and settings for the application.
+- backend: Core logic, data processing, and API integrations.
+- frontend: Streamlit-specific code for the user interface.
+  - Files: Components for file handling and uploads.
+  - Home: Main page and dashboard components.
+  - Modules: Reusable Streamlit components and widgets.
+
+
+## Key Features of This Structure
+
+- Separation of Concerns: Clear distinction between frontend, backend, and data management.
+- Scalability: Organized layout for easy addition of new features and modules.
+- Maintainability: Logical grouping of related files and functionalities.
+- Configuration Management: Centralized location for all configuration files.
+- Asset Management: Organized storage for static assets.
+
+This structure provides a solid foundation for building complex Streamlit applications while maintaining code organization and project scalability.
+
 # 🌟 How to Use This Template
 For Organization Members
 
