@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "fastexcel>=0.12.1",
     "polars>=1.21.0",
     "streamlit>=1.41.1",
 ]
