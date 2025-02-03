@@ -23,3 +23,9 @@ st.markdown(
     - Explore a [New York City rideshare dataset](https://github.com/streamlit/demo-uber-nyc-pickups)
 """
 )
+
+# Display or edit DataFrame if available
+if st.session_state.df is not None:
+    st.session_state.df = st.data_editor(st.session_state.df, key="main_data_editor")
+else:
+    st.write("No DataFrame available. Please upload a file.")
