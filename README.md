@@ -59,6 +59,14 @@ This is a template repository designed to help developers quickly bootstrap high
 - 🚢 Deployment-ready configurations
 - 🔍 Logging and monitoring setup
 
+## Demo
+
+Check out the demo of the app in action:
+
+![App Demo](src/assets/demo.gif)
+
+This GIF demonstrates the core features and user interface of the Streamlit application.
+
 ## Ideal For
 
 - Data Science Teams
