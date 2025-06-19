@@ -14,7 +14,7 @@
 
 ## 📋 Overview
 > [!NOTE]
-> **Quick Start**: 1) [![Use Template](https://img.shields.io/badge/Use-Template-green)](https://github.com/cedanl/streamlit-app-template/generate) → 2) Clone locally → 3) Install [![uv Badge](https://img.shields.io/badge/uv-DE5FE9?logo=uv&logoColor=fff&style=flat)](https://docs.astral.sh/uv/) → 4) Run `uv run streamlit run src/main.py`
+> **Quick Start**: [![Use Template](https://img.shields.io/badge/Use-Template-green)](https://github.com/cedanl/streamlit-app-template/generate) → Clone Locally → [![uv Badge](https://img.shields.io/badge/uv-DE5FE9?logo=uv&logoColor=fff&style=flat)](https://docs.astral.sh/uv/getting-started/installation/) → Run `uv run streamlit run src/main.py`
 
 The CEDA Streamlit App Template helps researchers and data scientists quickly build interactive web applications for data analysis and visualization. Perfect for creating:
 
