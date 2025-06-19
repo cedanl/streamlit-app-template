@@ -1,177 +1,151 @@
-<p align="center"><img src="src/assets/npuls_logo.png" alt="CEDA"></p>
+<div align="center">
+  <h1>CEDA Streamlit App Template</h1>
 
-<h1 align="center">Npuls-CEDA | Streamlit App template</h1>
+  <p>🚀 A simple template to quickly build interactive data science applications - no technical expertise required!</p>
 
-<div align="center"> <strong>🚀 Rapid Streamlit App Development Kit 🛠️</strong>
-    <br> Production-ready template for building scalable Streamlit applications. 
-    <br>
-    <sub>Ideal for data scientists, ML engineers, and Python developers seeking efficient app deployment</sub> </div> 
+  <p>
+    <a href="#"><img src="https://custom-icon-badges.demolab.com/badge/Windows-0078D6?logo=windows11&logoColor=white" alt="Windows"></a>
+    <a href="#"><img src="https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=F0F0F0" alt="macOS"></a>
+    <a href="#"><img src="https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black" alt="Linux"></a>
+    <img src="https://badgen.net/github/last-commit/cedanl/streamlit-app-template" alt="GitHub Last Commit">
+    <img src="https://img.shields.io/github/license/cedanl/streamlit-app-template" alt="GitHub License">
+  </p>
+</div>
+
+## 📋 Overview
+> [!NOTE]
+> No Python or technical knowledge required! This template is designed for everyone, regardless of programming experience.
+
+The CEDA Streamlit App Template helps researchers and data scientists quickly build interactive web applications for data analysis and visualization. Perfect for creating:
+
+- Data analysis dashboards
+- Interactive visualizations
+- Machine learning demos
+- Research presentation tools
+
+## ✨ Features
+- [x] **Ready-to-Use Structure**: Pre-organized folders and files for instant development
+- [x] **User-Friendly Interface**: Streamlit-based UI requiring no web development knowledge
+- [x] **Easy Page Creation**: Add new pages with just a few lines of code
+- [x] **Professional Layout**: Clean, organized project structure
+- [x] **`uv` Powered Setup**: One-click installation that handles Python and dependencies automatically
 
 <br>
 
-<div align="center">
-  <h3>
-    <a href="https://community-data-ai.npuls.nl/groups/view/44d20066-53a8-48c2-b4e9-be348e05d273/project-center-for-educational-data-analytics-ceda">
-      Website
-    </a>
-    <span> | </span>
-    <a href="https://github.com/cedanl/streamlit-app-template#features">
-      Features
-    </a>
-    <span> | </span>
-    <a href="https://github.com/cedanl/streamlit-app-template#download-and-installation">
-      Downloads
-    </a>
-    <span> | </span>
-    <a href="https://github.com/cedanl/streamlit-app-template#development">
-      Development
-    </a>
-    <span> | </span>
-    <a href="https://github.com/cedanl/streamlit-app-template#contribution">
-      Contribution
-    </a>
-  </h3>
-</div>
+## 🔧 First Time Setup
+> [!WARNING]
+> Do not skip these steps if this is your first time using this template. It will not work without them.
 
-<div align="center">
-  <sub>The ultimate streamlit app template. Built with ❤︎ by
-    <a href="https://github.com/cedanl">CEDA</a> and
-    <a href="https://github.com/cedanl/streamlit-app-template/graphs/contributors">
-      contributors
-    </a>
-    .
-  </sub>
-</div>
+> [!TIP]
+> Save the repository in a Projects/CEDA folder on your main drive for quick access.
 
-<br />
+### 1. Get the Template
 
+#### Option A: Use Template (For CEDA Members)
+1. Click the green **"Use this template"** button on GitHub
+2. Name your new app repository
+3. Choose Public or Private
+4. Click **"Create repository"**
 
-# 🔍 Purpose
-This is a template repository designed to help developers quickly bootstrap high-quality Streamlit applications with standardized project structure and best practices.
+#### Option B: Download ZIP
+[![Download Template](https://img.shields.io/badge/Download-Template-green)](https://github.com/cedanl/streamlit-app-template/archive/refs/heads/main.zip)
 
-## Key Features
+After downloading, extract the ZIP file and navigate into the folder.
 
-- 🚀 Standardized Streamlit project layout
-- 🔒 Security and environment management
-- 🧪 Integrated testing frameworks
-- 📦 Dependency management
-- 🐳 Docker containerization
-- 🚢 Deployment-ready configurations
-- 🔍 Logging and monitoring setup
+### 2. Install [![uv Badge](https://img.shields.io/badge/uv-DE5FE9?logo=uv&logoColor=fff&style=flat)](https://docs.astral.sh/uv/)
 
-## Demo
-
-Check out the demo of the app in action:
-
-![App Demo](src/assets/demo.gif)
-
-This GIF demonstrates the core features and user interface of the Streamlit application.
-
-## Ideal For
-
-- Data Science Teams
-- Machine Learning Engineers
-- Python Web Application Developers
-- Rapid Prototyping Enthusiasts
-
-# 📁 Project Structure
-
-```
-├───data
-│   ├───input
-│   └───output
-├───src
-│   ├───assets
-│   ├───config
-│   ├───backend
-│   └───frontend
-│       ├───Files
-│       ├───Home
-│       └───Modules
-
+#### MacOS & Linux (Terminal)
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
-## Directory Descriptions
+#### Windows (Powershell or [Windows Terminal](https://apps.microsoft.com/detail/9n0dx20hk701?hl=nl-NL&gl=NL))
+```powershell
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+```
+Close and reopen your terminal after installation.
 
-### 📂 data
+#### Verify installation
+```bash
+uv self update
+```
 
-- input: Store raw data files and datasets used by the application.
-- output: Save processed data, results, and generated files.
+<br>
 
-### 📂 src
+## 🚀 Running Your App
 
-- assets: Contains static files like images, CSS, and JavaScript.
-- config: Configuration files and settings for the application.
-- backend: Core logic, data processing, and API integrations.
-- frontend: Streamlit-specific code for the user interface.
-  - Files: Components for file handling and uploads.
-  - Home: Main page and dashboard components.
-  - Modules: Reusable Streamlit components and widgets.
+Ready to see your app come to life? It's just one command away! ✨
 
+### First, get to the right spot:
 
-## Key Features of This Structure
+Open a terminal in your app folder - it's super easy!
+- **Windows**: `Shift + Right-click` in folder → `Open in Windows Terminal` 
+- **Mac**: `Right-click` folder → `New Terminal at Folder`
+- **VS Code**: Just click `Terminal` → `New Terminal`
 
-- Separation of Concerns: Clear distinction between frontend, backend, and data management.
-- Scalability: Organized layout for easy addition of new features and modules.
-- Maintainability: Logical grouping of related files and functionalities.
-- Configuration Management: Centralized location for all configuration files.
-- Asset Management: Organized storage for static assets.
+Or navigate there:
+```bash
+cd path/to/your-app-folder
+```
 
-This structure provides a solid foundation for building complex Streamlit applications while maintaining code organization and project scalability.
+### Then, launch with a single command:
 
-# 🌟 How to Use This Template
-For Organization Members
+```bash
+uv run streamlit run src/main.py
+```
 
-1. Click "Use this template" green button on GitHub
-2. Name your new repository
-3. Choose visibility (Public/Private)
-4. Clone and start developing immediately
+That's it! Your app will automatically open in your browser. If you've completed the setup correctly, this is the **only command** you'll need going forward. 🎉
 
-## For External Contributors
+<br>
 
-1. Fork the repository
-2. Customize to your specific Streamlit app requirements
-3. Remove or modify template-specific instructions
+## 🎯 Building Your First App
 
-## Quick Start
+### Adding New Pages
+1. Create a new `.py` file in the `src/frontend/` folder
+2. Add your page to the navigation in `src/main.py`
+3. Your page appears automatically in the sidebar!
 
-Accelerate your Streamlit app development with a professional, scalable template that follows industry standards and reduces boilerplate setup time.
-Technologies
+### Example Page Structure
+```python
+import streamlit as st
 
-- Streamlit
-- Python 3.9+
-- uv
-- Docker
-- GitHub Actions
-- Pytest
+def show():
+    st.title("My New Page")
+    st.write("Hello, world!")
+    
+    # Add your content here
+    user_input = st.text_input("Enter something:")
+    if user_input:
+        st.success(f"You entered: {user_input}")
+```
 
+### What You Can Build
+- **Data Upload & Analysis**: Let users upload CSV files and see instant insights
+- **Interactive Charts**: Build dynamic visualizations that respond to user input  
+- **Machine Learning Demos**: Create interfaces for ML models and predictions
+- **Research Dashboards**: Display your research findings in an interactive format
 
+<br>
 
-# 🛠 Template Features
+## 🛠️ Built With
+[![uv Badge](https://img.shields.io/badge/uv-DE5FE9?logo=uv&logoColor=fff&style=flat)](https://docs.astral.sh/uv/)
+[![Streamlit Badge](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=fff&style=flat)](https://streamlit.io/)
+[![Python Badge](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff&style=flat)](https://www.python.org/)
 
-- Pre-configured project structure
-- Standardized development workflows
-- Essential configuration files
-- Deployment-ready setup
+## 🤲 Support
+If you find this template helpful, please consider:
+- ⭐ Starring the repo
+- 🐛 Reporting bugs
+- 💡 Suggesting improvements
+- 💻 Contributing code
 
-# 📋 Customization Checklist
+Need help? Feel free to [open an issue](https://github.com/cedanl/streamlit-app-template/issues) or contact us at a.sewnandan@hhs.nl
 
-- [ ] Update pyproject.toml
-- [ ] Configure environment variables
-- [ ] Modify application logic
-- [ ] Update documentation
-
-
-
-# 🤝 Contributing
-Please read CONTRIBUTING.md for details on our code of conduct and process for submitting pull requests.
-
-Thank you to all the people who have already contributed to streamlit-app-template[[contributors](https://github.com/cedanl/textanalysisstreamlit-app-template/graphs/contributors)].
-
+## 🙏 Contributors
+Thank you to all the [people](https://github.com/cedanl/streamlit-app-template/graphs/contributors) who have contributed to this template.
 
 [![](https://github.com/asewnandan.png?size=50)](https://github.com/asewnandan)
 [![](https://github.com/tin900.png?size=50)](https://github.com/tin900)
 
-
-
-
+## 🚦 License
+![GitHub License](https://img.shields.io/github/license/cedanl/streamlit-app-template)
