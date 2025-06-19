@@ -1,7 +1,7 @@
 <div align="center">
   <h1>CEDA Streamlit App Template</h1>
 
-  <p>🚀 A simple template to quickly build interactive data science applications - no technical expertise required!</p>
+  <p>🚀 A simple template to quickly build interactive data science applications!</p>
 
   <p>
     <a href="#"><img src="https://custom-icon-badges.demolab.com/badge/Windows-0078D6?logo=windows11&logoColor=white" alt="Windows"></a>
@@ -14,7 +14,7 @@
 
 ## 📋 Overview
 > [!NOTE]
-> No Python or technical knowledge required! This template is designed for everyone, regardless of programming experience.
+> **Quick Start**: 1) [![Use Template](https://img.shields.io/badge/Use-Template-green)](https://github.com/cedanl/streamlit-app-template/generate) → 2) Clone locally → 3) Install [![uv Badge](https://img.shields.io/badge/uv-DE5FE9?logo=uv&logoColor=fff&style=flat)](https://docs.astral.sh/uv/) → 4) Run `uv run streamlit run src/main.py`
 
 The CEDA Streamlit App Template helps researchers and data scientists quickly build interactive web applications for data analysis and visualization. Perfect for creating:
 
