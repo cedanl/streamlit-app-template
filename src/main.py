@@ -1,35 +1,32 @@
+# -----------------------------------------------------------------------------
+# Organization: CEDA
+# Original Authors: Ash Sewnandan, Iwan Tomer
+# -----------------------------------------------------------------------------
+"""
+Main Entrypoint for the Streamlit App
+"""
 import streamlit as st
-from config.screen_scanner import get_screens, group_pages_by_subdirectory
-from backend.file_handler import file_handler
-# ---------------------------------------
-# TODO
-# ---------------------------------------
 
-# ---------------------------------------
-# GENERAL PAGE CONFIGURATION
-# ---------------------------------------
-st.set_page_config(page_title="CEDA Preview", page_icon=":material/edit:")
+# Sidebar Configuration
+LOGO_URL = "src/assets/npuls_logo.png"
+st.logo(LOGO_URL)
 
-# ---------------------------------------
-# SIDEBAR CONFIGURATION
-# ---------------------------------------
-# Get all pages | Group by subdirectory | Create Streamlit Objects
-pages = get_screens()
-grouped_pages = group_pages_by_subdirectory(pages)
+# -----------------------------------------------------------------------------
+# PAGE CONFIGURATION - Add new sections/pages here
+# -----------------------------------------------------------------------------
+home_page = st.Page("frontend/Overview/Home.py", icon=":material/home:")
+example_upload_page = st.Page("frontend/Files/example_Upload.py", icon=":material/folder:")
+example_sales_page = st.Page("frontend/Modules/example_Sales.py", icon=":material/euro:")
+example_task_page = st.Page("frontend/Modules/example_Task.py", icon=":material/note:")
 
-# Create the navigation structure
-pg = st.navigation(grouped_pages)
+# Initialize Navigation, Sections, and Pages
+pg = st.navigation ( {
+    "Overview": [home_page],
+    "Files": [example_upload_page],
+    "Modules": [example_sales_page, example_task_page]
+})
 
-# Run File Handler in Sidebar            
-if __name__ == '__main__':
-    file_handler()
-
-# Add Logo
-LOGO_URL_LARGE = 'src/assets/npuls_logo.png'
-st.logo(LOGO_URL_LARGE)
-
-# ---------------------------------------
-# RUN STREAMLIT | PAGES | NAVIGATION
-# ---------------------------------------
+# -----------------------------------------------------------------------------
+# Run the app
+# -----------------------------------------------------------------------------
 pg.run()
-
